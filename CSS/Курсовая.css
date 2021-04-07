@@ -1,0 +1,408 @@
+{box-sizing: content-box}
+
+
+
+body{
+    width: 1920px;
+    height: 100%;
+    margin: auto;
+
+
+}
+
+header{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(rgba(243, 129, 129, .8),rgba(252, 227, 138, .8)), url("../img/Layer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container_nav{
+    display: inline-flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_mogo{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ul{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 40px;
+    margin: 0;
+    list-style: none;
+}
+
+.nav li{
+    padding-top: 20px;
+}
+
+.nav a{
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #fce38a;
+    border-bottom: 2px solid;
+}
+
+.container_nav p{
+    font-size: 30px;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+    color: #fff;
+    width: 45%;
+    margin: 10px;
+    text-align: left;
+}
+
+.nav i{
+    font-size: 14px;
+    color: #fff;
+}
+
+h2{
+    font-family: Kaushan Script, serif;
+    font-size: 72px;
+    color: #fff;
+    margin: 35px;
+}
+
+header h1:hover{
+
+}
+
+h1{
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    color: #fff;
+    margin: 35px 0 50px;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    background: #fff;
+    width: 62px;
+    height: 3px;
+    margin: 30px auto;
+}
+
+button{
+    font: inherit;
+    color: white;
+    background-color: transparent;
+    padding: 7px;
+    width: 160px;
+    height: 40px;
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: 3px solid;
+}
+
+button:hover{
+    background:linear-gradient(to bottom, #f0d289,#e78682);
+}
+
+.about{
+    height: 750px;
+}
+
+.container_about{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about .container_about{
+    height: 80%;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4{
+    font-family: Kaushan Script, serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-family: montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3:after{
+    content: "";
+    display: block;
+    background: #f38181;
+    width: 62px;
+    height: 3px;
+    margin: 30px auto;
+}
+
+p{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    text-align: center;
+}
+
+img{
+    display: inline-flex;
+
+}
+
+.img .container{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    height: 100%;
+}
+
+.statistics{
+    display: inline-flex;
+    width: 100%;
+    height: 270px;
+    background: #95e1d3;
+}
+
+.container_statistic{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.statistics .container_statistic{
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.statistics h2{
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    padding: 5px;
+    margin-bottom: 0;
+
+}
+
+.statistics p{
+    font-family: montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom:10px;
+
+}
+
+.slot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: space-around;
+    border: 1px solid #fff;
+}
+
+.amazing{
+    height: 650px;
+}
+
+.container_amazing{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.amazing .container_amazing{
+    height: 30%;
+    margin-bottom: 0;
+}
+
+.amazing .container_list{
+    height: 70%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.list{
+    display: inline-flex;
+}
+
+
+.list p{
+    text-align: left;
+}
+
+
+
+
+
+h5{
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.amazing_content .container p{
+    font-family: roboto,sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+.desing{
+    display: flex;
+    width: 100%;
+    height: 850px;
+    background: #e0e0e0 url(../img/Rectangle.jpg) no-repeat center center / cover;
+    opacity: 50%;
+}
+
+.desing h4{
+    margin-top: 0;
+}
+
+.desing h3{
+    margin-bottom: 0;
+}
+
+
+
+.desing .container_desing{
+    margin: auto;
+    height: 650px;
+}
+
+.container_desing{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tablet{
+    position: absolute;
+    padding-left: 680px;
+    padding-top: 230px;
+}
+
+.mobile{
+    position: absolute;
+    padding-left: 1090px;
+    padding-top: 465px;
+}
+
+.activList{
+    display: block;
+    width: 50%;
+    padding: 0;
+}
+
+.img_service{
+    display: block;
+    width: 50%;
+    height: 380px;
+    margin: 0;
+}
+
+.activList li{
+    display: block;
+
+}
+.activList h5{
+    display: block;
+    border: #e5e5e5 1px solid;
+    margin: 0;
+}
+
+.activList p{
+    overflow: auto;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: #999999;
+    height: 0;
+    transition: 0.5s;
+    text-align: justify;
+    margin: 0;
+    padding: 3px;
+
+}
+
+.activList:active > p {
+    overflow: auto;
+    height: 0;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.activList > li:hover > p {
+    height: 110px;
+    border: #e5e5e5 1px solid;
+}
+
+.container_service{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container_proff{
+    display: inline-flex;
+    width: 1200px;
+}
+
+.container_team{
+    width: 1200px;
+    height: 940px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.professional{
+    display: inline-flex;
+}
