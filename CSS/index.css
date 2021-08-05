@@ -253,19 +253,23 @@ h3:after{
     position: relative;
 }
 
-.activList{
+.service {
+    display: flex;
+}
+
+.serviceList{
     display: block;
     width: 50%;
     padding: 0;
 }
 
-.activList h5{
+.serviceList h5{
     display: block;
     border: #e5e5e5 1px solid;
     margin: 0;
 }
 
-.activList p{
+.serviceList p{
     overflow: auto;
     font-size: 15px;
     font-family: Roboto, sans-serif;
@@ -280,14 +284,14 @@ h3:after{
 
 }
 
-.activList:active > p {
+.serviceList:active > p {
     overflow: auto;
     height: 0;
     transition: 0.5s;
     text-align: justify;
 }
 
-.activList > li:hover > p {
+.serviceList > li:hover > p {
     height: 110px;
     border: #e5e5e5 1px solid;
 }
