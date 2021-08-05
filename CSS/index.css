@@ -27,13 +27,14 @@ section {
 ._container {
     max-width: 1230px;
     width: 100%;
-    margin: 130px 0 auto 0;
+    margin: 130px 10px auto 10px;
 }
 
-.discription {
+.description {
     font-size: 15px;
     font-family: Montserrat sans-serif;
     color: #999;
+    padding: 40px 180px 40px 180px;
 }
 
 .navigation {
@@ -170,7 +171,7 @@ h3:after{
     width: 100%;
     height: 200px;
     display: inline-flex;
-    margin: auto;
+    margin: 0;
     justify-content: center;
 }
 
@@ -191,7 +192,7 @@ h3:after{
 .img {
     width: 100%;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 60px 0 60px 0;
 }
 
@@ -202,8 +203,11 @@ h3:after{
 
 .list{
     display: grid;
+    margin-bottom: 130px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-row-gap: 3em;
+
 }
 
 .block {
@@ -234,39 +238,41 @@ h3:after{
 
 .desing{
     width: 100%;
+    height: 900px;
     background: #e0e0e0 url(../img/Rectangle.jpg) no-repeat center center / cover;
-    opacity: 0.5;
-    position: relative;
-
 }
 
 .device {
-    margin: 130px 0 0 0;
-
 }
 
 .tablet {
     position: absolute;
+    margin-left: -280px;
 }
 
 .mobile {
-    position: relative;
+    position: absolute;
+    margin: 230px 0 0 40px;
 }
 
 .service {
     display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
 }
 
 .serviceList{
     display: block;
+    color: #999999;
     width: 50%;
-    padding: 0;
+    text-align: left;
+    list-style-type: none;
+    padding: 0 0 15px 0;
 }
 
 .serviceList h5{
-    display: block;
     border: #e5e5e5 1px solid;
-    margin: 0;
+    padding: 10px;
 }
 
 .serviceList p{
@@ -279,20 +285,36 @@ h3:after{
     height: 0;
     transition: 0.5s;
     text-align: justify;
-    margin: 0;
-    padding: 3px;
+    margin: 5px 5px 5px 5px;
+    padding: 0 15px 0 15px;
 
 }
 
-.serviceList:active > p {
-    overflow: auto;
-    height: 0;
+.serviceList > li:hover > p {
+    height: 150px;
+    border: #e5e5e5 1px solid;
     transition: 0.5s;
     text-align: justify;
 }
 
-.serviceList > li:hover > p {
-    height: 110px;
-    border: #e5e5e5 1px solid;
+.board {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
 }
 
+.name {
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 30px;
+}
+
+.position {
+    color: #999;
+    font-family: Roboto;
+    font-style: Italic;
+    font-weight: 300;
+    font-size: 15px;
+}
