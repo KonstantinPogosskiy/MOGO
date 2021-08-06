@@ -339,54 +339,57 @@ h3:after{
 }
 
 .bar {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
     flex: 1 1 160px;
     padding: 0;
 }
 
 .item {
     position: relative;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
 .barinfo {
     color: #fff;
     opacity: 0;
-    height: 100%;
+    padding: 0 15px 0 10px;
     width: 100%;
-    margin-top: -47%;
     position: absolute;
     top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    text-align: center;
     transition: opacity 0.2s linear;
-    background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
 .barinfo:hover {
     opacity: 0.8;
-
 }
 
 .item:hover {
     cursor: pointer;
-
-
+    opacity: 0.3;
 }
 
 .title {
-    margin: auto;
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
  .text {
-     margin: auto;
-     align-items: center;
-     vertical-align: middle;
-     text-align: center;
+     font-family: Roboto, sans-serif;
+     font-size: 15px;
+     font-weight: 300;
+     font-style: italic;
     }
