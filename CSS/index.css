@@ -357,7 +357,7 @@ h3:after{
 }
 
 .barinfo {
-    color: #fff;
+    color: #333333;
     opacity: 0;
     padding: 0 15px 0 10px;
     width: 100%;
@@ -371,12 +371,14 @@ h3:after{
 }
 
 .barinfo:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .item:hover {
     cursor: pointer;
     opacity: 0.3;
+    transition: opacity 0.2s linear;
+
 }
 
 .title {
@@ -393,3 +395,32 @@ h3:after{
      font-weight: 300;
      font-style: italic;
     }
+
+ .reviews {
+     background-image: url("../img/clients-bg.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .clients {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-row-gap: 3em;
+ }
+
+ .client {
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     grid-template-rows: 1fr 1fr 1fr;
+ }
+
+ ._rew:after {
+     content: "";
+     display: block;
+     background: #f38181;
+     width: 62px;
+     height: 3px;
+     margin: 30px auto;
+ }
