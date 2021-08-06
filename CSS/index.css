@@ -171,8 +171,8 @@ h3:after{
     width: 100%;
     height: 200px;
     display: inline-flex;
-    margin: 0;
     justify-content: center;
+    padding: 50px 0;
 }
 
 .slot {
@@ -180,14 +180,16 @@ h3:after{
     color: #fff;
     border-right: solid 1px #ffffff;
     border-left: solid 1px #ffffff;
+
+
 }
 
 .slot span{
     font-family: montserrat, sans-serif;
     font-weight: bold;
     font-size: 72px;
-    padding: 5px;
 }
+
 
 .img {
     width: 100%;
@@ -239,7 +241,7 @@ h3:after{
 .desing{
     width: 100%;
     height: 900px;
-    background: #e0e0e0 url(../img/Rectangle.jpg) no-repeat center center / cover;
+    background: #e0e0e0 url(../img/devices.png) no-repeat center center / cover;
 }
 
 .device {
@@ -318,3 +320,73 @@ h3:after{
     font-weight: 300;
     font-size: 15px;
 }
+
+.labels {
+    width: 100%;
+    height: 200px;
+    background-color: #f8f8f8;
+    margin-top: 100px;
+}
+
+.label {
+    margin: auto;
+}
+
+.labs {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.bar {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 160px;
+    padding: 0;
+}
+
+.item {
+    position: relative;
+}
+
+.barinfo {
+    color: #fff;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: -47%;
+    position: absolute;
+    top: 50%;
+    transition: opacity 0.2s linear;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.barinfo:hover {
+    opacity: 0.8;
+
+}
+
+.item:hover {
+    cursor: pointer;
+
+
+}
+
+.title {
+    margin: auto;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+ .text {
+     margin: auto;
+     align-items: center;
+     vertical-align: middle;
+     text-align: center;
+    }
