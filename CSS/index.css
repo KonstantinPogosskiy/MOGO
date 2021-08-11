@@ -1,5 +1,6 @@
 html {
-min-width: 1920px;
+    min-width: 1920px;
+    width: 100%;
 }
 
 body{
@@ -49,10 +50,14 @@ section {
     width: 50%;
     margin: auto;
     text-align: left;
+}
+
+.logo a {
     font-family: montserrat, sans-serif;
     font-weight: bold;
     font-size: 33px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 ul {
