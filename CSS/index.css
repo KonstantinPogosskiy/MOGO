@@ -208,6 +208,12 @@ h3:after {
     width: 30.5%;
 }
 
+.table:hover {
+    background-color: #ffffff;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
 .list{
     display: grid;
     margin-bottom: 130px;
